@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+@import "pages/Home";
+@import "pages/Presentation";
+@import "pages/Projets";
+@import "pages/Competences.css";
+@import "pages/Experience.css";
+
+
+@import "components/Home/Title";
+@import "components/Home/Cards";
+@import "components/Presentation/Texts";
+@import "components/Presentation/Diplomes";
+@import "components/Projets/Cartes";
+@import "components/Projets/Order";
+@import "components/Projets/Popup";
+@import "components/Competences/Stack";
+@import "components/Experience/BTS";
+@import "components/Navbar/Navbar";
+
+
+
+body {
+    margin: 0;
+    background-color: #4390BC;
+    font-family: 'JetBrains Mono';
+    color: #FFFFFF;
+}
+
+
+/* Définition de l'animation fade-in */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px); /* Commence à 100px à gauche */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* Position finale à 0 (position normale) */
+    }
+  }
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px); /* Commence à 100px à gauche */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* Position finale à 0 (position normale) */
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

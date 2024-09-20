@@ -1,0 +1,35 @@
+.stack-container {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+
+.stack-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.stack-texts {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    height: 80%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.stack-texts p {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+.presentation-title-container {
+    height: 25vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: end;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    animation: fadeInRight 0.5s ease forwards;
+    opacity: 0;
+}
+
+.presentation-title-container h1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 46px;
+    height: 120px;
+    font-weight: 900;
+}
+
+.presentation-title-container img {
+    width: auto;
+    height: 120px;
+}
+
+.components-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-bottom: 20px;
+}
+
+.presentation-content .link-to-projets {
+    text-align: center;
+    font-size: 17px;
+}
+
+.presentation-content a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.presentation-content a:hover {
+    color: blue;
+}

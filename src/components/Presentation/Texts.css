@@ -1,0 +1,175 @@
+.texts-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.texts1, .texts2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.texts2 .ecole-image img {
+    width: 200px;
+    height: auto;
+}
+
+.texts-container .info-image {
+    display: flex;
+    align-items: center;
+}
+
+.texts-container .texts {
+    width: 54vw;
+}
+
+.texts-container .info-image img {
+    width: 520px;
+    height: auto;
+}
+
+
+
+.texts {
+    font-size: 24px;
+    text-align: justify;
+}
+
+
+.info-image {
+    animation: fadeInLeft 1s ease forwards;
+    opacity: 0;
+}
+
+.texts-container .texts {
+    animation: fadeInRight 1s ease forwards;
+    opacity: 0;
+}
+
+.texts2 .texts {
+    animation: fadeInLeft 1s ease forwards;
+    opacity: 0;
+}
+
+.texts2 .ecole-image {
+    animation: fadeInRight 1s ease forwards;
+    opacity: 0;
+}
+
+.texts2 .texts {
+    width: 80%;
+}
+
+@media screen and (max-width:1404px) {
+    .texts-container p {
+        font-size: 20px;
+    }
+
+    .texts1 .info-image img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1125px) {
+    .texts-container p {
+        font-size: 16px;
+    }
+
+    .texts1 .info-image img {
+        width: 370px;
+        height: auto;
+    }
+
+    .texts2 .ecole-image img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .texts-container p {
+        font-size: 14px;
+    }
+
+    .texts1 .info-image img {
+        width: 300px;
+        height: auto;
+    }
+
+    .texts2 .ecole-image img {
+        width: 135px;
+        height: auto;
+    }
+
+    .diplomes-niveau img {
+        width: 120px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .texts-container p {
+        font-size: 12px;
+    }
+
+    .texts1 .info-image img {
+        width: 200px;
+        height: auto;
+    }
+
+    .texts2 .ecole-image img {
+        width: 110px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .texts-container {
+        width: 95%;
+    }
+
+    .texts-container p {
+        font-size: 10px;
+    }
+
+    .texts1 .info-image img {
+        width: 150px;
+        height: auto;
+    }
+
+    .texts2 .ecole-image img {
+        width: 110px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .texts-container {
+        width: 95%;
+    }
+
+    .texts-container p {
+        font-size: 9px;
+    }
+
+    .texts1 .info-image img {
+        width: 150px;
+        height: auto;
+    }
+
+    .texts2 .ecole-image img {
+        width: 90px;
+        height: auto;
+    }
+
+    .texts1, .texts2 {
+        gap: 20px;
+    }
+
+    .diplomes-niveau img {
+        width: 80px;
+        height: auto;
+    }
+}

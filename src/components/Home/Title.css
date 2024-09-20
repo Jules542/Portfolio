@@ -1,0 +1,21 @@
+.home-title-container {
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 90%;
+    margin: 0 auto;
+    animation: fadeInLeft 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+.home-title-container h1 {
+    margin: 0;
+    font-size: 46px;
+    font-weight: 900;
+}
+
+.home-title-container p {
+    margin: 0;
+    font-size: 27px;
+}

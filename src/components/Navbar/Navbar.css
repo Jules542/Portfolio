@@ -1,0 +1,57 @@
+/* Style de base de la navbar */
+.navbar {
+    background-color: white; /* Couleur de fond sombre */
+    padding: 15px 0; /* Padding pour rendre la navbar plus épaisse */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* Liste des éléments de la navbar */
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style des liens */
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #4390BC; /* Texte en blanc */
+    text-decoration: none; /* Enlever le soulignement */
+    font-size: 18px; /* Taille du texte */
+    font-weight: 500; /* Mettre le texte un peu en gras */
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Effet de survol (hover) */
+.navbar ul li a:hover {
+    background-color: #4390BC; /* Couleur de fond plus claire au survol */
+    color: white; /* Reste blanc au survol */
+}
+
+/* Style pour la navbar en mode responsive */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column; /* Aligne les éléments verticalement sur les petits écrans */
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin: 10px 0; /* Espacement vertical entre les éléments */
+    }
+
+    .navbar ul li a {
+        font-size: 16px; /* Taille du texte réduite pour petits écrans */
+    }
+}

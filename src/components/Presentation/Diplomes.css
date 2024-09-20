@@ -1,0 +1,39 @@
+.diplomes-container {
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #4390BC;
+    height: 500px;
+    width: 97%;
+    margin:0 auto;
+}
+
+.diplomes-container .diplome-title {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 32px;
+}
+
+.diplomes-content {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+}
+
+.diplomes-niveau {
+    text-align: center;
+}
+
+.diplomes-texts-container .diplomes-texts li {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.diplomes-texts-container .diplomes-texts p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.diplomes-content .diplomes-niveau h3 {
+    font-size: 30px;
+}
