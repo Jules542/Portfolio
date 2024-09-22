@@ -6,6 +6,7 @@
 @import "pages/Projets";
 @import "pages/Competences.css";
 @import "pages/Experience.css";
+@import "pages/Contact.css";
 
 
 @import "components/Home/Title";
@@ -18,7 +19,6 @@
 @import "components/Competences/Stack";
 @import "components/Experience/BTS";
 @import "components/Navbar/Navbar";
-
 
 
 body {
@@ -42,7 +42,7 @@ body {
 @keyframes fadeInLeft {
     0% {
       opacity: 0;
-      transform: translateX(-100px); /* Commence à 100px à gauche */
+      transform: translateX(-70px); /* Commence à 100px à gauche */
     }
     100% {
       opacity: 1;
@@ -53,7 +53,7 @@ body {
 @keyframes fadeInRight {
     0% {
         opacity: 0;
-        transform: translateX(100px); /* Commence à 100px à gauche */
+        transform: translateX(70px); /* Commence à 100px à gauche */
     }
     100% {
         opacity: 1;

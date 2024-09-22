@@ -1,5 +1,4 @@
-.projets-page-container {
-}
+
 
 .projets-title-container {
     display: flex;
@@ -9,6 +8,19 @@
     margin: 0 auto;
     font-size: 20px;
     animation: fadeInLeft 0.5s ease-in-out;
+    gap: 50px;
+}
+
+.projets-title-container img {
+    width: auto;
+    height: 80px;
+}
+
+.projets-title-container h1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 80px;
 }
 
 .cartes-container {

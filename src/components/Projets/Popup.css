@@ -18,13 +18,13 @@
     display: flex;
     border-radius: 10px;
     max-width: 1600px;
-    height: 500px;
+    height: 520px;
     width: 90%;
     animation: fadeIn 0.5s;
 }
 
 .popup-content a {
-    color: rgb(13, 13, 206);
+    color: blue;
     text-decoration: underline;
     transition: color 0.3s ease;
     font-size: 19px;
@@ -32,7 +32,7 @@
 }
 
 .popup-content a:hover {
-    color: blue;
+    color: rgb(0, 102, 255);
 }
 
 .popup-left img {

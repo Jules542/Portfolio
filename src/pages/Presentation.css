@@ -46,3 +46,60 @@
 .presentation-content a:hover {
     color: blue;
 }
+
+@media screen and (max-width: 1550px) {
+    .presentation-title-container h1 {
+        font-size: 40px;
+        height: 100px;
+    }
+
+    .presentation-title-container img {
+        height: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    .presentation-title-container h1 {
+        font-size: 36px;
+        height: 80px;
+    }
+
+    .presentation-title-container img {
+        height: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    .presentation-title-container h1 {
+        font-size: 32px;
+        height: 60px;
+    }
+
+    .presentation-title-container img {
+        height: 60px;
+    }
+
+    .presentation-title-container {
+        height: 15vh;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .presentation-title-container h1 {
+        font-size: 26px;
+        height: 40px;
+    }
+
+    .presentation-title-container img {
+        height: 40px;
+    }
+
+    .presentation-title-container {
+        height: 10vh;
+        gap: 25px;
+    }
+    
+}

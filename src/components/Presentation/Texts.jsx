@@ -16,14 +16,14 @@ const Texts = () => {
                         <p>Après avoir décroché un Baccalauréat STMG, je décide de m’orienter dans le milieu de l’informatique, et plus précisément dans le développement Web.</p>
                     </div>
                     <div className="text2">
-                        <p>J’ai donc étudié dans l’établissement Saint-Adjutor de Vernon (27) afin d’obtenir un BTS Services Informatiques aux Organisations (SIO) en spécialité SLAM (Solutions logicielles et applications métiers).</p>
+                        <p>J’ai donc étudié au lycée Saint-Adjutor de Vernon (27) afin d’obtenir un BTS Services Informatiques aux Organisations (SIO) en spécialité SLAM (Solutions logicielles et applications métiers).</p>
                     </div>
                 </div>
             </div>
             <div className="texts2">
                 <div className="texts" style={{animationDelay: '1s'}}>
                     <div className="text1">
-                        <p>Je poursuis actuellement mes études en 3<sup>ème</sup> année de Bachelor dans l'école SupDeVinci de Paris La Défense en Développement informatique.</p>
+                        <p>Je poursuis actuellement mes études en 3<sup>ème</sup> année de Bachelor dans l'école <a href="https://supdevinci.fr" target="_blank">Sup De Vinci</a> de Paris La Défense en Développement informatique.</p>
                     </div>
                 </div>
                 <div className="ecole-image" style={{animationDelay: '1s'}}>

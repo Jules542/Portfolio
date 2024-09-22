@@ -6,14 +6,16 @@ import {useState} from 'react';
 
 const Projets = () => {
 
+    const ProjetsImagePath = "/src/assets/images/idea.png";
+
     const [selectedProject, setSelectedProject] = useState(null);
 
     const projetsData = [
         {
             image: "/src/assets/images/AP1.png",
-            titre: "Création d'un site Web pour améliorer la présence d'un chauffagiste sur Internet",
+            titre: "Création d'un site Web pour améliorer la présence d'un chauffagiste en ligne",
             tasks: ["Modélisation de la base de données", "Élaboration de maquettes", "Séparation des tâches", "Développement"],
-            features: ["Page 'Présentation' (Modification du texte possible en tant qu'admin)", "Page 'Prestations' (Ajout, Modification et Suppression)", "Page 'Avis' (Vue admin et vue client) (Formulaire)", "Page 'Contact' (Formulaire de contact)"],
+            features: ["Page 'Présentation' (Modification du texte possible en tant qu'admin)", "Page 'Prestations' (Ajout, Modification et Suppression)", "Page 'Avis' (Vue admin et vue client) (Formulaire)", "Page 'Contact' (Formulaire de contact)", "Vue Admin/Client"],
             tags : ["#ExerciceBTS", "#GroupeDe3", "#PHP", "#Symfony", "#MySQL"],
             date: "11-2023",
             delay: "1",
@@ -93,6 +95,7 @@ const Projets = () => {
         <div className="projets-page-container">
             <div className="projets-title-container">
                 <h1>Mes projets</h1>
+                <img src={ProjetsImagePath} />
             </div>
             <div className="order-container">
                 <Order />        

@@ -1,0 +1,26 @@
+.contact-title-container {
+    height: 180px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    animation: fadeInRight 0.5s ease forwards;
+    opacity: 0;
+}
+
+.contact-title-container img {
+    height: 100px;
+    width: auto;
+}
+
+.contact-title-container h1 {
+    height: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+}

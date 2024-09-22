@@ -8,7 +8,10 @@
 }
 
 .diplomes-container .diplome-title {
+    display: flex;
+    align-items: center;
     width: 75%;
+    height: 100px;
     margin: 0 auto;
     font-size: 32px;
 }
@@ -16,12 +19,30 @@
 .diplomes-content {
     display: flex;
     justify-content: center;
-    gap: 120px;
+    gap: 75px;
     align-items: center;
+}
+
+.diplomes-texts-container {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    height: 100%;
+}
+
+.diplomes-texts-container .diplomes-texts {
+    height: 100%;
 }
 
 .diplomes-niveau {
     text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+.diplomes-niveau img {
+    width: 65%;
+    height: auto;
 }
 
 .diplomes-texts-container .diplomes-texts li {
@@ -36,4 +57,109 @@
 
 .diplomes-content .diplomes-niveau h3 {
     font-size: 30px;
+}
+
+@media screen and (max-width:1550px) {
+    .diplomes-texts-container .diplomes-texts li {
+        font-size: 20px;
+    }
+
+    .diplomes-content .diplomes-niveau h3 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:1313px) {
+    .diplomes-texts-container .diplomes-texts li {
+        font-size: 18px;
+    }
+
+    .diplomes-content .diplomes-niveau h3 {
+        font-size: 23px;
+    }
+
+    .diplomes-container .diplome-title h2 {
+        margin: 20px;
+        font-size: 36px;
+    }
+
+    .diplomes-container {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:1065px) {
+    .diplomes-texts-container .diplomes-texts li {
+        font-size: 16px;
+    }
+
+    .diplomes-texts-container .diplomes-texts p {
+        font-size: 15px;
+    }
+
+    .diplomes-content .diplomes-niveau h3 {
+        font-size: 16px;
+    }
+
+    .diplomes-container {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .diplomes-texts-container .diplomes-texts li {
+        font-size: 12px;
+    }
+
+    .diplomes-texts-container .diplomes-texts p {
+        font-size: 10px;
+    }
+
+    .diplomes-content .diplomes-niveau h3 {
+        font-size: 12px;
+    }
+
+    .diplomes-container .diplome-title {
+        height: 75px;
+    }
+
+    .diplomes-container .diplome-title h2 {
+        margin: 20px;
+        font-size: 28px;
+    }
+
+    .diplomes-container {
+        height: 250px;
+    }
+
+    .diplomes-content {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .diplomes-texts-container .diplomes-texts li {
+        font-size: 9px;
+    }
+
+    .diplomes-texts-container .diplomes-texts p {
+        font-size: 8px;
+    }
+
+    .diplomes-container .diplome-title {
+        height: 40px;
+    }
+
+    .diplomes-container .diplome-title h2 {
+        margin: 20px;
+        font-size: 22px;
+    }
+
+    .diplomes-container {
+        height: 200px;
+    }
+
+    .diplomes-content {
+        gap: 20px;
+    }
 }

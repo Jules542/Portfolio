@@ -5,8 +5,8 @@ import Presentation from "./pages/Presentation.jsx";
 import Projets from "./pages/Projets.jsx";
 import Competences from "./pages/Competences.jsx";
 import Experience from './pages/Experience.jsx';
+import Contact from './pages/Contact.jsx';
 import Navbar from "./components/Navbar/Navbar.jsx";
-
 
 function App() {
 
@@ -20,6 +20,7 @@ function App() {
             <Route path='/projets' element={<Projets />} />
             <Route path='/experience' element={<Experience />} />
             <Route path='/competences' element={<Competences />} />
+            <Route path='/contact' element={<Contact />} />
           </Routes>
         </Router>
     </>

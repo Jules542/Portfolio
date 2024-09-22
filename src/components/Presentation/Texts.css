@@ -21,7 +21,7 @@
 }
 
 .texts-container .texts {
-    width: 54vw;
+    width: 50vw;
 }
 
 .texts-container .info-image img {
@@ -29,13 +29,10 @@
     height: auto;
 }
 
-
-
 .texts {
-    font-size: 24px;
+    font-size: 27px;
     text-align: justify;
 }
-
 
 .info-image {
     animation: fadeInLeft 1s ease forwards;
@@ -45,6 +42,7 @@
 .texts-container .texts {
     animation: fadeInRight 1s ease forwards;
     opacity: 0;
+    width: 80%;
 }
 
 .texts2 .texts {
@@ -57,8 +55,10 @@
     opacity: 0;
 }
 
-.texts2 .texts {
-    width: 80%;
+@media screen and (max-width: 1665px) {
+    .texts {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width:1404px) {
@@ -127,7 +127,7 @@
 
 @media screen and (max-width:600px) {
     .texts-container {
-        width: 95%;
+        width: 90%;
     }
 
     .texts-container p {
@@ -142,6 +142,10 @@
     .texts2 .ecole-image img {
         width: 110px;
         height: auto;
+    }
+
+    .texts1, .texts2 {
+        gap: 20px;
     }
 }
 
