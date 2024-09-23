@@ -26,7 +26,7 @@ const Projets = () => {
             titre: "Application de gestion et de suivi des autorisations de mise sur le marché de médicaments pour GSB",
             tasks: ["Modélisation de la base de données", "Élaboration de maquettes", "Séparation des tâches", "Développement"],
             features: ["Interface d'ajout de médicament", "Interface de gestion des étapes de validation"],
-            tags : ["#ExerciceBTS", "#GroupeDe3", "#C#", "Windows Forms", "#SQL Server"],
+            tags : ["#ExerciceBTS", "#GroupeDe3", "#C#", "#WindowsForms", "#SQLServer"],
             delay: "1.2",
             date: "01-2024",
             lien: ""
@@ -36,7 +36,7 @@ const Projets = () => {
             titre: "Développement d'une application Web responsive pour les employés du parc Astérix",
             tasks: ["Modélisation de la base de données", "Élaboration de maquettes", "Séparation des tâches", "Développement"],
             features: ["Page de connexion Admin/User", "Page de présentation des attractions avec système de tri", "Affichage des missions à réaliser pour l'utilisateur connecté", "Gestion des alertes pour l'admin", "Gestion des utilisateurs pour l'admin", "Adaptation du contenu des pages au format de l'écran (Responsive)"],
-            tags : ["#ExerciceBTS", "#GroupeDe3", "#JavaScript", "#React", "#SCSS", "#API REST", "#NodeJS", "#MySQL"],
+            tags : ["#ExerciceBTS", "#GroupeDe3", "#JavaScript", "#React", "#SCSS", "#APIREST", "#Node.js", "#MySQL"],
             delay: "1.4",
             date: "05-2024",
             lien: "https://github.com/Jules542/AP03_TKT"
@@ -76,7 +76,7 @@ const Projets = () => {
             titre: "Développement d'une application Web affichant des données récupérées de l'API de Riot Games s'actualisant chaque jour",
             tasks: ["Modélisation de la base de données", "Élaboration de maquettes", "Développement"],
             features: ["Script Python appelant des routes d'une API pour envoyer les données vers une BDD MySQL", "Récupération des données vers une vue", "Mise en forme des données", "Page de statistiques"],
-            tags: ["#EnCours...", "#ProjetIndividuel", "#JavaScript", "#NodeJS", "#MySQL", "#Python"],
+            tags: ["#EnCours...", "#ProjetIndividuel", "#JavaScript", "#Node.js", "#MySQL", "#Python"],
             delay: "2.2",
             date : "",
             lien: "https://loldailyrecap.alwaysdata.net"

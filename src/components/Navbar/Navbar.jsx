@@ -1,10 +1,20 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Navbar = () => {
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    const menuIconPath = "/src/assets/images/menu.png";
+
     return (
         <nav className="navbar">
             <div className="navbar-links">
-                <ul>
+                <ul className={isOpen ? "open" : ""}>
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -25,7 +35,11 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
+            <div className="navbar-menu">
+                <img src={menuIconPath} onClick={toggleMenu}/>
+            </div>
         </nav>
+        
     )
 }
 

@@ -13,14 +13,15 @@
     margin-bottom: 50px;
     animation: fadeInLeft 0.5s ease forwards;
     opacity: 0;
+    font-size: 28px;
 }
 
 .title-competences-container img {
     width: auto;
-    height: 85px;
+    height: 72px;
 }
 
-.title-competences-container h1 {
+.title-competences-container h2 {
     height: 72px;
     display: flex; 
     margin: 0;
@@ -35,4 +36,43 @@
     margin: 0 auto;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.certifs-container {
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 170px;
+    padding-bottom: 50px;
+}
+
+.certifs-container-title {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    top: 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.certifs-container h2 {
+    font-size: 36px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.certifs-container img {
+    width: auto;
+    height: 80px;
 }
