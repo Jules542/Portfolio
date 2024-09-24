@@ -28,9 +28,6 @@ const Navbar = () => {
                         <Link to="/competences">Compétences</Link>
                     </li>
                     <li>
-                        <Link to="/experience">Expérience</Link> 
-                    </li>
-                    <li>
                         <Link to="/contact">Contact</Link> 
                     </li>
                 </ul>

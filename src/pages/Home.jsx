@@ -6,7 +6,6 @@ import Cards from "../components/Home/Cards";
 import Diplome from "../assets/images/certificate.png";
 import Projects from "../assets/images/idea.png";
 import Competences from "../assets/images/competences.png";
-import Experience from "../assets/images/professional.png";
 import Contact from "../assets/images/contacts.png";
 
 const Home = () => {
@@ -30,16 +29,11 @@ const Home = () => {
         delay: "2.1",
         redirect: 'competences',
         },
-        {
-        image: Experience,
-        text: 'Mon expérience',
-        delay: '2.4',
-        redirect: 'experience',
-        },
+
         {
         image: Contact,
         text: 'Me Contacter',
-        delay: '2.7',
+        delay: '2.4',
         redirect: 'contact',
         }
     ];

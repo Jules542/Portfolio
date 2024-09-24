@@ -18,7 +18,7 @@
 
 .title-competences-container img {
     width: auto;
-    height: 72px;
+    height: 92px;
 }
 
 .title-competences-container h2 {
@@ -30,8 +30,7 @@
 
 .stacks-container {
     display: flex;
-    border: 2px solid white;
-    height: 380px;
+    height: 450px;
     width: 90%;
     margin: 0 auto;
     justify-content: space-evenly;
@@ -40,7 +39,6 @@
 
 .certifs-container {
     position: relative;
-    border: 1px solid black;
     display: flex;
     width: 90%;
     margin: 0 auto;
@@ -65,7 +63,7 @@
 }
 
 .certifs-container h2 {
-    font-size: 36px;
+    font-size: 33px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -75,4 +73,56 @@
 .certifs-container img {
     width: auto;
     height: 80px;
+}
+
+@media screen and (max-width: 1550px) {
+    .title-competences-container h2 {
+        font-size: 40px;
+        height: 100px;
+    }
+
+    .title-competences-container img {
+        height: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    .title-competences-container h2 {
+        font-size: 32px;
+        height: 60px;
+    }
+
+    .title-competences-container img {
+        height: 60px;
+    }
+
+    .title-competences-container {
+        height: 15vh;
+    }
+
+    .stacks-container {
+        height: 350px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .title-competences-container h2 {
+        font-size: 26px;
+        height: 40px;
+    }
+
+    .title-competences-container img {
+        height: 40px;
+    }
+
+    .title-competences-container {
+        gap: 25px;
+    }
+    
+    .stacks-container {
+        width: 95%;
+        height: 280px;
+    }
 }

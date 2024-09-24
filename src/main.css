@@ -5,7 +5,6 @@
 @import "pages/Presentation";
 @import "pages/Projets";
 @import "pages/Competences.css";
-@import "pages/Experience.css";
 @import "pages/Contact.css";
 
 
@@ -18,7 +17,6 @@
 @import "components/Projets/Popup";
 @import "components/Competences/Stack";
 @import "components/Competences/Certifs";
-@import "components/Experience/BTS";
 @import "components/Navbar/Navbar";
 
 

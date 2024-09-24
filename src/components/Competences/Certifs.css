@@ -52,3 +52,9 @@
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 600px) {
+    .certif-container {
+        width:300px;
+    }
+}

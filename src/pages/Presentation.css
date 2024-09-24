@@ -61,18 +61,6 @@
 
 @media screen and (max-width: 750px) {
     .presentation-title-container h1 {
-        font-size: 36px;
-        height: 80px;
-    }
-
-    .presentation-title-container img {
-        height: 80px;
-    }
-    
-}
-
-@media screen and (max-width: 750px) {
-    .presentation-title-container h1 {
         font-size: 32px;
         height: 60px;
     }

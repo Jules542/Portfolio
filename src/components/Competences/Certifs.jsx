@@ -1,5 +1,6 @@
 
 const Certifs = ({title, img, desc, date}) => {
+
     return (
         <div className="certif-container">
             <div className="certif-top">
