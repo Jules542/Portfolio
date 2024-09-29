@@ -6,6 +6,7 @@
 @import "pages/Projets";
 @import "pages/Competences.css";
 @import "pages/Contact.css";
+@import "pages/Certifications.css";
 
 
 @import "components/Home/Title";
@@ -16,7 +17,8 @@
 @import "components/Projets/Order";
 @import "components/Projets/Popup";
 @import "components/Competences/Stack";
-@import "components/Competences/Certifs";
+@import "components/Certifications/Certifs";
+@import "components/Contact/Form";
 @import "components/Navbar/Navbar";
 
 
@@ -64,6 +66,17 @@ body {
     0% {
       opacity: 0;
       transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+@keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
     }
     100% {
       opacity: 1;

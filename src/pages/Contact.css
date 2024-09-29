@@ -24,3 +24,17 @@
     align-items: center;
     font-size: 46px;
 }
+
+.contact-text-container {
+    border: 1px solid black;
+    display: flex;
+}
+
+.form-container {
+    border: 1px solid white;
+    width : 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

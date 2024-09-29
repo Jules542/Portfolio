@@ -25,7 +25,7 @@ const Projets = () => {
             image: "/src/assets/images/AP2.png",
             titre: "Application de gestion et de suivi des autorisations de mise sur le marché de médicaments pour GSB",
             tasks: ["Modélisation de la base de données", "Élaboration de maquettes", "Séparation des tâches", "Développement"],
-            features: ["Interface d'ajout de médicament", "Interface de gestion des étapes de validation"],
+            features: ["Login", "Interface d'ajout de médicament", "Interface de gestion des étapes de validation", "Création de procédures stockées pour les requêtes SQL"],
             tags : ["#ExerciceBTS", "#GroupeDe3", "#C#", "#WindowsForms", "#SQLServer"],
             delay: "1.2",
             date: "01-2024",

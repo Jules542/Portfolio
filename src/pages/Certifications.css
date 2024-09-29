@@ -1,0 +1,92 @@
+
+
+.lesCertifs {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding-top: 170px;
+    padding-bottom: 50px;
+}
+
+.certifs-container-title {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 90%;
+    height: 270px;
+    margin: 0 auto;    
+    margin-bottom: 500px;
+    animation: fadeInDown 1s ease forwards;
+    opacity: 0;
+}
+
+.certifs-container h2 {
+    font-size: 37px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.certifs-container img {
+    width: auto;
+    height: 100px;
+}
+
+@media screen and (max-width: 1550px) {
+    .title-competences-container h2 {
+        font-size: 40px;
+        height: 100px;
+    }
+
+    .title-competences-container img {
+        height: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    .title-competences-container h2 {
+        font-size: 32px;
+        height: 60px;
+    }
+
+    .title-competences-container img {
+        height: 60px;
+    }
+
+    .title-competences-container {
+        height: 15vh;
+    }
+
+    .stacks-container {
+        height: 350px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .title-competences-container h2 {
+        font-size: 26px;
+        height: 40px;
+    }
+
+    .title-competences-container img {
+        height: 40px;
+    }
+
+    .title-competences-container {
+        gap: 25px;
+    }
+    
+    .stacks-container {
+        width: 95%;
+        height: 280px;
+    }
+}

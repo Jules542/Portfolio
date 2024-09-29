@@ -1,0 +1,46 @@
+#contact-form label {
+    display: block;
+    font-size: 20px;
+    height: 32px;
+}
+
+.form-name-nom, .form-name-prenom {
+    width: 400px;
+}
+
+.form-name-nom #nom, .form-name-prenom #prenom {
+    width: 98%;
+    height: 32px;
+}
+
+
+#contact-form input {
+    width: 99%;
+    height: 32px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    outline: none; /* Retire la bordure par défaut du navigateur */
+  border: 2px solid #4CAF50; /* Change la bordure à une couleur verte */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.8); /* Ajoute une ombre autour de l'input */
+  background-color: #f0f8f5; /* Change légèrement la couleur de fond lors du focus */
+  transition: all 0.3s ease-in-out
+}
+
+.form-name {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    width: 800px;
+}
+
+.form-others {
+    width: 800px;
+}
+
+#contact-form textarea {
+    width: 99%;
+    height: 100px;
+    resize: none;
+}

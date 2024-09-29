@@ -5,6 +5,15 @@
     height: 240px;
     background-color: #ffffff;
     color: #000000;
+    box-shadow: 0 0 3px #000000;
+    transition: all 0.3s ease-in-out;
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+}
+
+.certif-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #000000;
 }
 
 .certif-top img {

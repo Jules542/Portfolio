@@ -4,6 +4,7 @@ import Home from "./pages/Home.jsx";
 import Presentation from "./pages/Presentation.jsx";
 import Projets from "./pages/Projets.jsx";
 import Competences from "./pages/Competences.jsx";
+import Certifications from "./pages/Certifications.jsx";
 import Contact from './pages/Contact.jsx';
 import Navbar from "./components/Navbar/Navbar.jsx";
 
@@ -18,6 +19,7 @@ function App() {
             <Route path='/presentation' element={<Presentation />} />
             <Route path='/projets' element={<Projets />} />
             <Route path='/competences' element={<Competences />} />
+            <Route path='/certifications' element={<Certifications />} />
             <Route path='/contact' element={<Contact />} />
           </Routes>
         </Router>

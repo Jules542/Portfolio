@@ -6,7 +6,9 @@ import Cards from "../components/Home/Cards";
 import Diplome from "../assets/images/certificate.png";
 import Projects from "../assets/images/idea.png";
 import Competences from "../assets/images/competences.png";
+import Certifications from "../assets/images/certification.png";
 import Contact from "../assets/images/contacts.png";
+import { redirect } from "react-router-dom";
 
 const Home = () => {
     // Données pour les cartes (image + texte)
@@ -29,11 +31,16 @@ const Home = () => {
         delay: "2.1",
         redirect: 'competences',
         },
-
+        {
+        image: Certifications,
+        text: 'Mes certifications',
+        delay: '2.4',
+        redirect: 'certifications',
+        },
         {
         image: Contact,
         text: 'Me Contacter',
-        delay: '2.4',
+        delay: '2.7',
         redirect: 'contact',
         }
     ];
